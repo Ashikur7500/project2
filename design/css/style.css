@@ -1,0 +1,45 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+root{
+    -- Moderate cyan: hsl(176, 50%, 47%)
+    - Dark cyan: hsl(176, 72%, 28%)
+    - Black: hsl(0, 0%, 0%)
+    - Dark gray: hsl(0, 0%, 48%)
+
+
+}
+
+header{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    
+}
+.header-conteiner{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.list-items{
+    list-style: none;
+    display: flex;
+
+}
+.list-item{
+    padding: 0 15px;
+}
+.nav-link{
+    color: white; 
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: rgb(143, 79, 79);
+}
